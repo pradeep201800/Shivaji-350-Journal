@@ -25,26 +25,11 @@ The archive article titles and metadata are demonstration content for the protot
 
 Open `dist/index.html` in a browser.
 
-On GitHub, the deployable website files are placed at the repository root so the site can be published directly from the `main` branch.
 
 ## Supabase backend
 
-Run `supabase/schema.sql` in the Supabase SQL Editor, then add the Project URL and anon key to `dist/supabase-config.js`. Detailed beginner steps are available in `SUPABASE_SETUP.md`.
+Run `supabase/schema.sql` in the Supabase SQL Editor, then add the Project URL and anon key to `dist/supabase-config.js`. 
 
-## Publish manually on Netlify
-
-1. Sign in to Netlify and select **Add new site → Deploy manually**.
-2. Drag and drop the `dist` folder into the deployment area.
-3. Netlify will upload the website and provide its live link.
-
-The separate `Shivraj-350-Netlify-Deploy.zip` package contains only the files required for manual deployment.
-
-## Publish with GitHub Pages
-
-1. Open the repository **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select the `main` branch and `/ (root)` folder, then click **Save**.
-4. The published website will be available at `https://pradeep201800.github.io/Shivaji-350-Journal/`.
 
 ## Source material
 
