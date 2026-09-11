@@ -1,7 +1,3 @@
--- Shivraj 350 manuscript submission backend
--- Student project by Pradeep Kumar
--- Run this complete file once in Supabase > SQL Editor.
-
 create extension if not exists pgcrypto;
 
 create table if not exists public.manuscript_submissions (
