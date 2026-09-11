@@ -55,5 +55,4 @@ for insert
 to anon, authenticated
 with check (bucket_id = 'manuscripts');
 
--- No public SELECT policy is created. Manuscript details and PDFs remain private.
--- The college team can review records from the Supabase dashboard.
+
